@@ -50,4 +50,3 @@ def main():
     send_keyboard_event()
 
 
-main()
