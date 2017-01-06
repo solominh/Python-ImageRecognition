@@ -6,5 +6,5 @@ time.sleep(5)
 
 while True:
     main()
-    time.sleep(1)
+    time.sleep(0.05)
 
