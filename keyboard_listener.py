@@ -2,7 +2,7 @@
 
 import pyHook
 import pythoncom
-from app import main
+from transform_image_to_text import main
 
 
 def OnKeyBoardEvent(event):
