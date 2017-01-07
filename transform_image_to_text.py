@@ -44,11 +44,11 @@ def send_keyboard_event():
     with open(file_path) as f:
         text_lines = list(f)
 
-    print('Read text file done! numbers of lines ' + str(len(text_lines)))
+    print('Read text file done!')
     print(text_lines)
 
     if text_lines:
-        for line in text_lines:
+        for line in reversed(text_lines):
             cleaned_line = line.strip()
             if cleaned_line:
                 print(cleaned_line)
